@@ -1,0 +1,22 @@
+{
+  "name": "tiktok-hashtag-api-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes TikTok hashtag feeds and returns structured video, music, and author metadata.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "author": "Bitbash",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ajv": "^8.12.0",
+    "dotenv": "^16.4.5",
+    "p-limit": "^4.0.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
